@@ -1,0 +1,113 @@
+*{
+    margin:0%;
+    padding:0%
+}
+
+
+
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+    }
+
+    .courses-section {
+      text-align: center;
+      padding: 60px 80px;
+    }
+
+    .courses-section h3 {
+      font-size: 14px;
+      font-weight: 500;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .courses-section h2 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #111827;
+      margin-bottom: 40px;
+    }
+
+    /* Courses Grid */
+    .courses-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+     /* height:600px; */
+    }
+
+    /* Course Card */
+    .course-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      height:250px;
+     
+    }
+
+    .course-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .course-card img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .course-content {
+      padding: 20px;
+      text-align: left;
+    }
+
+    .course-content h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #111827;
+    }
+
+    .course-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .course-meta span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .stars {
+      color: #fbbf24; /* Yellow stars */
+    }
+
+    input{
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #d1d5db; 
+        border-radius: 8px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        padding: 10px 20px;
+        background-color: #2563eb; /* Blue */
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+   
